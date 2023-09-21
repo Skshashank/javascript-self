@@ -51,3 +51,32 @@ Return type of variables in JavaScript
        Object  =>  object
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//stack(primitive means makes changes into the copy) heap(non primitive as a refernece )
+
+let myYoutubename = "Shashankydotcom"
+
+let anothername = wishdotcom
+anothername = "helloWish"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={
+    email: "user@google.com"
+    upi: "user@ybl";
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "shashank@007"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+
+
+
+
